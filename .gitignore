@@ -1,0 +1,7 @@
+__pycache__/
+venv/
+.env
+src/db/data/
+.DS_Store
+mcp-server/node_modules
+node_modules
