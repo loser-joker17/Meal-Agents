@@ -15,7 +15,7 @@ export const sessions = sqliteTable('sessions', {
   appName: text('app_name').notNull(),
   userId: text('user_id').notNull(),
   id: text('id').notNull(),
-  state: text('state').notNull(), // JSON serialized session state dictionary
+  state: text('state').notNull(),
   createTime: text('create_time').notNull(),
   updateTime: text('update_time').notNull(),
 }, (table) => ({
